@@ -1,9 +1,13 @@
+import traceback
+
 class Client():
   def __init__(self):
     try:
-      raise Exception("with exception")
-      print 'without error'
+      raise Exception('VROOM!')
     except Exception as e:
+      traceback.print_exc()
       print e
+    finally:
+      print 'Finish'
 
 Client()
