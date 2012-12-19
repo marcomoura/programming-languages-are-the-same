@@ -1,0 +1,4 @@
+cd java
+javac * -d bin/
+cd bin
+java Client

@@ -1,0 +1,9 @@
+To install the compiler of mono
+
+sudo apt-get install mono-gmcs
+
+to compile
+gmcs FILENAME.cs
+
+to run 
+mono FILENAME.exe
